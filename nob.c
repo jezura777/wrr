@@ -11,9 +11,8 @@ int main(int argc, char **argv)
 
     cmd_append(&cmd, "cc");
     cmd_append(&cmd, "-Wall");
-    cmd_append(&cmd, "-ggdb");
     cmd_append(&cmd, "-o");
-    cmd_append(&cmd, "main");
+    cmd_append(&cmd, "wrr");
     cmd_append(&cmd, "main.c");
 
     if(!cmd_run(&cmd)) return 1;
