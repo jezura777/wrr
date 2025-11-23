@@ -3,8 +3,7 @@
 #define CR "20"
 #define CC "30"
 
-int center=1;
-int append=0;
+#include "config.h"
 
 #define BUFF_SIZE 512
 
@@ -23,8 +22,8 @@ int main(int argc, char **argv)
     }
 
     if(argc > 2 && argv[2][0]=='-' ){
-	if(argv[2][1]=='n') center=0;
-	if(argv[2][1]=='a') append=1;
+	if(argv[2][1]=='n') center=!center;
+	if(argv[2][1]=='a') append=!append;
     }
 
     char buff[BUFF_SIZE] = {0};
