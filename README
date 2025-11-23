@@ -1,4 +1,16 @@
-This is writer
-==============
+Writer
+======
 it is not an editor
-and this readme is written with writer enjoy.
+and this readme is written with it, enjoy.
+
+USAGE
+=====
+to save and exit press ctrl+D twice or once on newline
+to start writing another paragraph press enter twice
+
+If working on a screen that is to small for the standard
+almost in center text add -n after the input file to make
+the cursor start at 0 0
+If working on a diary or creative text where
+you would want to append text to already existing
+file add -a after the file to enter append mode
